@@ -204,10 +204,6 @@ header nav ul li:hover{
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
     Font-size: 30px;
-    Line-height: 44px;
-    Line-height: 100%;
-    Align: Left;
-    Vertical-align: Top;
     color: #21243D;
 }
 /*main*/
@@ -273,3 +269,89 @@ header nav ul li:hover{
     line-height: 24px;
     color: #21243D;
 }
+
+/*recent posts*/
+
+.recent_color {
+    background: #EDF7FA;
+    margin-bottom: 32px;
+}
+.block{
+    height: 295px;
+    display: inline-block;
+    max-width: 418px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 148px;
+}
+.block1{
+    display: inline-block;
+    max-width: 418px;
+    height: 295px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin: 20px;
+    align-items: center;
+}
+.recent_text{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    padding: 24px 21px 17px 23px;
+}
+.recent_text_p{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding: 11px 27px 7px 23px;
+}
+.text_recent{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding: 17px 21px 11px 23px;
+}
+.text_recent_line{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding: 17px 21px 11px 23px;
+}
+.view{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+    float: right;
+    padding-top: 27px;
+}
+.text_recent_line::before{
+    content: '';
+    border: 1px solid #000000;
+    height: 21px;
+    margin-right: 26px;
+}
+.main_padding_recent{
+    padding-top: 7px;
+    padding-bottom: 32px;
+}
+
+
+
+
