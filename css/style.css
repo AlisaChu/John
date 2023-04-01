@@ -283,16 +283,7 @@ header nav ul li:hover{
     background-color: #FFFFFF;
     border-radius: 4px;
     align-items: center;
-    margin-left: 148px;
-}
-.block1{
-    display: inline-block;
-    max-width: 418px;
-    height: 295px;
-    background-color: #FFFFFF;
-    border-radius: 4px;
     margin: 20px;
-    align-items: center;
 }
 .recent_text{
     font-family: 'Heebo', sans-serif;
@@ -338,8 +329,8 @@ header nav ul li:hover{
     line-height: 24px;
     text-align: right;
     color: #00A8CC;
-    float: right;
     padding-top: 27px;
+    text-decoration: none;
 }
 .text_recent_line::before{
     content: '';
@@ -351,7 +342,13 @@ header nav ul li:hover{
     padding-top: 7px;
     padding-bottom: 32px;
 }
-
-
-
-
+.span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
