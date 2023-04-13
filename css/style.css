@@ -441,7 +441,7 @@ header nav ul li:hover{
     text-decoration: none;
 }
 .container-last{
-    max-width: 506px;
+    max-width: 681px;
     margin: auto;
 }
 .last-text{
@@ -453,6 +453,7 @@ header nav ul li:hover{
     color: #21243D;
     margin-bottom: 14px;
     padding-top: 78px;
+    max-width: 506px;
 }
 .padding-text-last{
     font-family: 'Heebo', sans-serif;
